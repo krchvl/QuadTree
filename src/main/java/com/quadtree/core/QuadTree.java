@@ -9,7 +9,6 @@ import java.util.*;
 import java.util.function.Predicate;
 
 public final class QuadTree<T> implements SpatialIndex<T> {
-
     public static final class Builder<T> {
         private Rect bounds;
         private int capacity = 16;
